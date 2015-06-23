@@ -1,0 +1,350 @@
+.hiddenItem{
+  display: none;
+}
+.fontStyle{
+  color: #95E5AF;
+  text-shadow: 5px 5px 5px #111;
+}
+.capitalize{
+  text-transform: capitalize;
+}
+html{
+  position: relative;
+  min-height: 100%;
+}
+body{
+  font-family: 'Indie Flower', cursive;
+  background-color: #52401b;
+  background-image: url("../images/fabric-of-squares.png");
+  margin-bottom: 60px;
+}
+nav{
+  height: 50px;
+  background-image: url('../images/sprinkles1.jpg');
+  background-size: cover;
+  opacity: .8;
+  box-shadow: 1px 1px 5px 3px #ddd;
+}
+.navbar-header a{
+  display: inline-block;
+  color: #fff;
+  margin-top: 10px;
+  font-size: 24px;
+  text-shadow: 2px 3px 2px #111;
+  transition-duration: .5s;
+  background-color: rgba(68, 68, 68, 0.45); 
+  border-radius: 6px;
+  padding: 0 6px;
+}
+.navbar-header a:hover{
+  text-decoration: none;
+  cursor: pointer;
+  color: #A4FFC5;
+  transform: scale(1.02);
+  transition-duration: .5s;
+  border: 1px solid #A4FFC5;
+  background-color: rgba(68, 68, 68, 0.7); 
+  box-shadow: 2px 2px 2px 2px #333;
+}
+.shopping_cart{
+  position: absolute;
+  right: 5%;
+  top: 0px;
+}
+.nav_font_style{  
+  text-shadow:2px 2px 1px #111;
+  font-size: 24px;
+  margin-top: 10px;
+  background-color: rgba(68, 68, 68, 0.5); 
+  border-radius: 6px;
+  padding: 0 6px;
+}
+.nav_font_style a{
+  text-decoration: none;
+}
+.nav_font_style a, .current_price, .fa{
+  color: #fff;  
+}
+.place_new_order{
+  margin-bottom: 120px;
+}
+.pick_your_fav h3{
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #254952;
+  box-shadow: 2px 2px 2px 2px #333;
+  outline-style: ridge;
+  outline-width: 8px;
+}
+/*ice cream*/
+.pyf_icecream{
+  margin-top: 60px;
+}
+.position_icecream{
+  margin-top: 20px;
+}
+.icecream_top{ 
+  display: block; 
+  width: 140px; 
+  height: 120px; 
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px; 
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; 
+  margin: 0 auto -40px;
+}
+.icecream_top_color_0{
+  background-color: #36837F;
+  background-image: url("../images/cream-dust.png");
+}
+.icecream_top_color_1{
+  background-color: #823238;
+  background-image: url("../images/large-leather.png");
+}
+.icecream_top_color_2{
+  background-color: #1c1459;
+  background-image: url("../images/light-paper-fibers.png");
+}
+.icecream_top_color_3{
+  background-color: #4a2310;
+  background-image: url("../images/old-map.png");
+}
+.icecream_top_color_4{
+  background-color: #cc68c0;
+  background-image: url("../images/paper.png");
+}
+.icecream_top_color_5{
+  background-color: #20614b;
+  background-image: url("../images/rice-paper-3.png");
+}
+/*cone*/
+.icecream_cone{
+  margin: -20px auto 0;
+  width: 0; 
+  height: 0; 
+  border-left: 70px solid transparent; 
+  border-right: 70px solid transparent; 
+  -moz-border-radius: 50%; 
+  -webkit-border-radius: 50%; 
+  border-radius: 50%;
+}
+.position_icecream_cone{
+  margin-top: 30px;
+}
+.icecream_cone_0{
+  border-top: 100px solid #73413B;
+}
+.icecream_cone_1{
+  border-top: 100px solid #55382A;
+}
+/*float*/
+.position_float{
+  margin: 30px auto 0; 
+  display:inline-block;
+}
+/*shake*/
+.shake_top{ 
+  display:block; 
+  width: 160px; 
+  height: 120px; 
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px; 
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; 
+  margin: 0 auto -70px;
+}
+/*mud*/
+.mug{ 
+  position: relative; 
+  width: 160px; 
+  height: 250px; 
+  margin: 20px auto;
+  border-radius: 50% / 5%; 
+  text-align: center; 
+  background-image: url("../images/fresh-snow.png");
+} 
+.mug:before{ 
+  content: ''; 
+  position: absolute; 
+  top: 10%; 
+  bottom: 10%; 
+  right: -5%; 
+  left: -5%; 
+  background: inherit; 
+  border-radius: 5% / 50%; 
+}
+.mug_color_0{
+  background-color: #55382A;  
+}
+.mug_color_1{
+  background-color: #3fbf81;;
+}
+.mug_color_2{
+  background-color: #451740;
+}
+.mug_position{
+  margin: 0 auto; 
+  display: inline-block;
+}
+/*milk cup*/
+.milk_cup{ 
+  border-top: 100px solid #eee; 
+  border-left: 25px solid transparent; 
+  border-right: 25px solid transparent; 
+  height: 0; 
+  width: 100px; 
+  margin: 20px auto 0;
+}
+/*hover*/
+.hover_over_item{
+  transition-duration: .5s;
+}
+.hover_over_item:hover{
+  transform: scale(1.2, 1.2);
+  transition-duration: .5s;
+  cursor: pointer;
+}
+.just_right, .add_another_scoop_btn, .order_complete_place_new_order{
+  background-color: #069;
+  background-image: url("../images/fabric-of-squares.png");
+  box-shadow: 2px 2px 2px 2px #333;
+  padding: 11px 0;
+  font-size: 20px;
+  height: 27px;  
+  -moz-border-radius: 100px / 50px; 
+  -webkit-border-radius: 100px / 50px; 
+  border-radius: 100px / 142px;
+  height: auto;
+  margin: 20px auto;
+}
+.just_right{
+  width: 182px;
+}
+.add_another_scoop_btn{
+  width: 275px; 
+}
+.order_complete_place_new_order{
+  width: 182px;
+}
+.order_competed, .error_sending_order{
+  margin-top: 20px;
+  font-size: 30px;
+}
+.previous_orders_section{
+  margin-bottom: 70px;
+}
+.previous_orders_section p{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.order_details_output, .previous_orders_data{
+  font-family: 'Source Code Pro';
+  color: #72E5D0;
+  margin-top: 20px;
+}
+.single_record{
+  border: 2px solid #333;
+  background-color: #555;
+  opacity: .8;
+  border-radius: 4px;
+  margin:0 auto 10px;
+  padding: 10px;
+  width: 300px;
+  text-transform: capitalize;
+  text-align: left;
+}
+.hover_over_item{
+  transition-duration: .5s;
+}
+.hover_over_item:hover{
+  transform: scale(1.2, 1.2);
+  transition-duration: .5s;
+  cursor: pointer;
+}
+.floating_btn{
+  position: fixed; 
+  color: #C4E5CB; 
+  cursor: pointer;
+  z-index: 999;    
+  font-size: 30px;
+  right: 3%;  
+  margin-right: 5px;
+  opacity: .5;
+  transform: scale(1, 1);
+  transition-duration: .5s;
+}
+.discount_applied{
+  position: absolute;
+  bottom:120%;
+  left:62%;
+}
+.discount_logo{
+  z-index: 1;  
+  font-size: 140px;
+  color: #A99E3E;
+  margin-right: -80px;
+  text-shadow:
+       3px 3px 0 #111,
+     -1px -1px 0 #111,  
+      1px -1px 0 #111,
+      -1px 1px 0 #111,
+       1px 1px 0 #111;
+}
+.discount_text{
+  position: relative;
+  z-index: 999;  
+  bottom: 115px;
+  margin-left: 75px;
+  font-size: 30px;
+  text-shadow:
+       1px 3px 0 #222,
+     -1px -1px 0 #222,  
+      1px -1px 0 #222,
+      -1px 1px 0 #222,
+       1px 1px 0 #222;
+  -webkit-transform: rotate(341deg);
+  -moz-transform: rotate(341deg);
+  -o-transform: rotate(341deg);
+  writing-mode: lr-tb;
+}
+#start_new_order{
+  top: 15%;
+}
+#scroll_to_top{
+  top: 85%;
+}
+#start_new_order:hover, #scroll_to_top:hover{
+  transform: scale(2, 2);
+  transition-duration: .5s;
+  color: #eee;
+  opacity: .8;
+}
+#plays_footer_logo{
+  width: 70px;
+  height: auto;
+  padding: 10px 0 0 0;
+  transition-duration: .5s;
+}
+#plays_footer_logo:hover{
+  transform: scale(1.2, 1.2);
+  transition-duration: .5s;
+}
+footer{
+  background-image: url('../images/sprinkles1.jpg');
+  background-size: cover;
+  box-shadow: 1px -1px 5px 3px #ddd;
+  opacity: .8;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #f5f5f5;
+  padding: 0 15px;
+}
+footer p{
+  margin: 20px 0;
+}
+#push_down{
+  margin-top: 120px;
+}
+@media screen and (max-width: 838px){
+  #nav_toggle{
+    margin-left: 10px;
+  }
+}

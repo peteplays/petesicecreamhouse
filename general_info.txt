@@ -1,0 +1,75 @@
+Here is an extract from the DB of the 3 possible records.
+Ice Cream Cone
+{
+	"_id" : ObjectId("555a0803db4f471be18b4567"),
+	"product" : "icecream_cone",
+	"price" : "5.50",
+	"ice_cream_type" : [
+		"3",
+		"4"
+	],
+	"cone_type" : "0",
+	"vendor" : "UI_send",
+	"dts" : "2015-05-18T11:40:51-04:00"
+}
+Float
+{
+	"_id" : ObjectId("555a04dfdb4f4710f08b4567"),
+	"product" : "float",
+	"price" : "9.60",
+	"ice_cream_type" : [
+		"2",
+		"5",
+		"2",
+		"4"
+	],
+	"soda_type" : "0",
+	"vendor" : "UI_send",
+	"dts" : "2015-05-18T11:27:27-04:00"
+}
+Milkshake
+{
+	"_id" : ObjectId("555a04cfdb4f47e1ef8b4568"),
+	"product" : "milkshake",
+	"price" : "4.00",
+	"ice_cream_type" : [
+		"4"
+	],
+	"milk_type" : "2",
+	"vendor" : "UI_send",
+	"dts" : "2015-05-18T11:27:11-04:00"
+}
+Pricing and product data are stored in a JSON file under data/
+Prices
+{
+	"icecream_cone" : 3.50,
+	"milkshake" : 5,
+	"float" : 6,
+	"adding_scoops" : 2,
+	"discount" : 0.2
+}
+Products
+{
+	"icecream" : [
+		"lagoon lime",
+		"velvet crackle",
+		"bandit berry",
+		"rocky wocky tocky",
+		"cotton candy",
+		"mintmazing"
+	],
+	"cone" : [
+		"chocolate",
+		"dark chocolate"
+	],
+	"milk" : [
+		"whole",
+		"skim",
+		"2"
+	],
+	"soda" : [
+		"caramel cola",
+		"electric go go",
+		"berry berry awesome"
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"icecream" : {
+		"0" : "lagoon lime",
+		"1" : "velvet crackle",
+		"2" : "bandit berry",
+		"3" : "rocky wocky",
+		"4" : "cotton candy",
+		"5" : "mintmazing"
+	},
+	"cone" : {
+		"0" : "chocolate",
+		"1" : "dark chocolate"
+	},
+	"milk" : {
+		"0" : "whole",
+		"1" : "skim",
+		"2" : "2"
+	},
+	"soda" : {
+		"0" : "caramel cola",
+		"1" : "electric go go",
+		"2" : "berry berry awesome"
+	}
+}
