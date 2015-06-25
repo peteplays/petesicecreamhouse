@@ -311,7 +311,7 @@ $(document).scroll(function () {
     }
 });
 //-- scroll to top btn
-$('#scroll_to_top').click(function() {
+$('#scroll_to_top').on('click', function() {
 	$('html, body').animate({ scrollTop: 0 }, 'ease');
 });
 //--toggle button text

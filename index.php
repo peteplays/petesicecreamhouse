@@ -31,7 +31,6 @@ include 'config.php';
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <link href="css/plays.css" rel="stylesheet">
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -272,7 +271,6 @@ include 'config.php';
 
         <script>
             var ORDER_SERVICE_URL = '<?php echo $order_service_url; ?>';
-            //var HOME_PAGE = '<?php echo $pich_url; ?>';
         </script>
 
         <script src="js/jquery-1.11.3.min.js"></script>
