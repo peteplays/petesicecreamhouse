@@ -111,7 +111,7 @@ if( $opt == 'read' ) {
 	try{
 		$master_output = array();
 		$rec_num = 0;
-		//-- search db
+		//--search db
 		$search = array( 'vendor' => $vendor );
 		$date_sort = array( 'dts' => -1 );
 		$cursor = $coll_pich->find( $search )->sort( $date_sort );
@@ -135,7 +135,7 @@ if( $opt == 'read' ) {
 				}
 				$record['vendor'] = $db_data['vendor'];
 				$record['rec_num'] = $rec_num;
-				//-- gather records for output
+				//--gather records for output
 				array_push($master_output, $record);				
 			}
 		}
