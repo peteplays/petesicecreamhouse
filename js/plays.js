@@ -234,7 +234,7 @@ $('.position_icecream').on('click', function() {
 		$('.add_another_scoop, .just_right').slideDown('ease');	
 	}	
 });
-//--add another scroop of ice cream
+//--add another scoop of ice cream
 $('.add_another_scoop').on('click', function() {
 	hide_everything();
 	$('.icecream_selected').slideDown('ease');
