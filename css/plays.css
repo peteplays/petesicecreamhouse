@@ -249,14 +249,6 @@ nav{
   text-transform: capitalize;
   text-align: left;
 }
-.hover_over_item{
-  transition-duration: .5s;
-}
-.hover_over_item:hover{
-  transform: scale(1.2, 1.2);
-  transition-duration: .5s;
-  cursor: pointer;
-}
 .floating_btn{
   position: fixed; 
   color: #C4E5CB; 

@@ -37,7 +37,7 @@ include 'config.php';
         <![endif]-->
     </head>
     <body>
-        <?php include_once("service/ga.php"); ?>
+        <?php include_once 'service/ga.php'; ?>
         
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
